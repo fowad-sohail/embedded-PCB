@@ -38,9 +38,9 @@ void my_wait (unsigned char my_time);
 void my_wait (unsigned char my_time)
 {
     int j, k, l;
-    for (j=0; j<my_time; j++) // outer loop iterating with 
+    for (j=0; j<my_time; j++) // outer loop iterating with my_time
     {
-        for (k=0; k<255; k++)
+        for (k=0; k<255; k++) // inner loop iterating 0-254
         {
             l++;
         }
